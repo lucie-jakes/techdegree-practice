@@ -1,8 +1,13 @@
 /* Base Styles */
+* {
+    box-sizing: border-box;
+}
+
 body { 
+    color: #585454;
+    margin: 0;
     font: 1em/1.5 Helvetica, Arial, sans-serif;
-	color: #585454;
-	margin: 0;
+    text-align: center;
 }
 
 h1 {
@@ -39,14 +44,15 @@ ul {
     list-style-type: none;
 }
 
+img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
 /* ------ Pseudo-classes ------- */
 a:link {
 	text-decoration: none;
-    font-size: 20px;
-	color: #FFA949;
-	border-bottom: solid 2px;
-	padding: 3px 9px 1px 9px;
-    display: inline-block;
+	color: rgb(255, 169, 73);
 }
 
 a:visited {
@@ -60,9 +66,10 @@ a:hover {
 /* ----- Main Styles ----- */
 .main-header {
     background-color: rgb(118, 118, 150);
-    padding-top: 120px;
-    padding-bottom: 90px;
-    margin-bottom: 50px; 
+    padding-top: 170px;
+    height: 850px;
+    background-image: url('../images/brno\ zelnak.jpg');
+    background-size: 80%;
 }
 
 .title {
@@ -82,11 +89,28 @@ a:hover {
 }
 
 .primary-content,
-.secondary-content,
 .main-header,
-.main-footer,
-.intro {
+.main-footer {
     text-align: center;
+}
+
+.primary-content {
+    padding-top: 25px;
+    padding-bottom: 95px;
+}
+
+.secondary-content {
+    padding-top: 80px;
+    padding-bottom: 70px;
+    border-bottom: 2px solid #dfe2e6;
+}
+
+.callout {
+    font-size: 1.25em;
+    border-bottom: 3px solid;
+    padding: 0 9px 3px;
+    margin-top: 20px;
+    display: inline-block;
 }
 
 .main-footer {
@@ -102,14 +126,21 @@ a:hover {
 /* ----- Layout Styles */
 .primary-content,
 .secondary-content {
-    width: 60%;
+    width: 75%;
+    padding-left: 50px;
+    padding-right: 50px;
     margin: auto;
+    max-width: 900px;
 }
 
 .popular-places {
     color: white;
-    background-color: #434a52;
+    background-color: #585b5e;
     padding: 18% 24%;
     border-top: 10px solid #ffa949;
     margin: 105px 0 60px;
+}
+
+.arrow {
+    width: 50px;
 }
