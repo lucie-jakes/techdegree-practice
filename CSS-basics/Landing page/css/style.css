@@ -65,11 +65,9 @@ a:hover {
 
 /* ----- Main Styles ----- */
 .main-header {
-    background-color: rgb(118, 118, 150);
     padding-top: 170px;
     height: 850px;
-    background-image: url('../images/brno\ zelnak.jpg');
-    background-size: 80%;
+    background: rgb(118, 118, 150) url('../images/vanoce.jpg') no-repeat center /cover;
 }
 
 .title {
