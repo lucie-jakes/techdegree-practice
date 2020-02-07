@@ -1,4 +1,4 @@
-/* Base Styles */
+/* ----- Base Styles ----- */
 * {
     box-sizing: border-box;
 }
@@ -68,7 +68,10 @@ a:hover {
 .main-header {
     padding-top: 170px;
     height: 850px;
-    background: rgb(118, 118, 150) url('../images/vanoce.jpg') no-repeat center /cover;
+
+    background: linear-gradient(#ffa949, transparent 50%),
+                linear-gradient(0deg, #fff, transparent 50%),
+                rgb(118, 118, 150) url('../images/vanoce.jpg') no-repeat center /cover; 
 }
 
 .title {
@@ -144,6 +147,7 @@ a:hover {
 
 .arrow {
     width: 50px;
+    margin-top: 150px;
 }
 
 /* ----- Floated Columns ----- */
