@@ -16,6 +16,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: rgb(206, 64, 87);
+}
+
 
 /* ===========================
      Base Layout Styles
