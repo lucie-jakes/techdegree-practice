@@ -11,13 +11,24 @@ body {
     color: #312f2f;
 }
 
-a {
-    color: #fff;
-    text-decoration: none;
+p {
+    font-size: .95em;
+    margin-bottom: 1.5em;
 }
 
-a:hover {
-    color: rgb(206, 64, 87);
+h2,
+h3,
+a {
+    color: #093a58;
+}
+
+h2,
+h3 {
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
 }
 
 
@@ -26,9 +37,32 @@ a:hover {
 ============================== */
 /* ----- Navigation ----- */
 .name {
-  margin: 0;  
+  font-size: 1.25em;  
 }
 
+.name,
+.main-nav li {
+    text-align: center;
+    background: #fff;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.main-nav a {
+    font-size: .95em;
+    color: #3acec2;
+    text-transform: uppercase;
+}
+
+.main-nav a:hover {
+    color: #093a58;
+}
+
+.name a,
+.main-nav {
+    padding: 10px 15px;
+    display: block;
+}
 /* ----- Layout Containers ----- */
 
 .container {
@@ -37,8 +71,11 @@ a:hover {
 }
 
 .main-header {
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
     background: #3acec2;
-    padding: 1em 0;
+    margin-bottom: 30px;
 }
 
 .main-footer {
@@ -58,8 +95,18 @@ a:hover {
     }
     
     .container {
-        width: 70%;
-        max-width: 1000px;
+        width: 80%;
+        max-width: 1150px;
         margin: 0 auto;
     }
+
+    .name,
+    .main-nav li {
+        display: inline-block;
+    }
+
+    .name {
+        width: 240px;
+    }
 }
+
