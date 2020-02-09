@@ -53,6 +53,10 @@ a:hover {
 ============================== */
 
 @media (min-width: 769px) {
+    .wrap {
+       min-height: calc(100vh - 88px); 
+    }
+    
     .container {
         width: 70%;
         max-width: 1000px;
