@@ -38,13 +38,12 @@ a {
 ============================== */
 /* ----- Navigation ----- */
 .name {
-  font-size: 1.25em;  
+  font-size: 1.5em;  
 }
 
 .name,
 .main-nav li {
     text-align: center;
-    background: #fff;
     margin-top: 6px;
     margin-bottom: 6px;
 }
@@ -58,12 +57,12 @@ a {
 
 .main-nav a {
     font-size: .95em;
-    color: #3acec2;
+    color: #093a58;
     text-transform: uppercase;
 }
 
 .main-nav a:hover {
-    color: #093a58;
+    color: #f3f5f7;
 }
 
 /* ----- Layout Containers ----- */
