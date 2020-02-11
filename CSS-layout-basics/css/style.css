@@ -85,6 +85,7 @@ a {
     background: #d9e4ea;
     text-align: center;
 }
+
 /* ----- Page Elemets ----- */
 
 /* ===========================
@@ -102,6 +103,19 @@ a {
         margin: 0 auto;
     }
 
+    .main-nav {
+        float: right;
+    }
+
+    .main-nav li {
+        float: left;
+        margin-left: 12px;
+    }
+
+    .name {
+        float: left;
+    }
+
     .feat-img {
         width: 300px;
         float: left;
@@ -110,6 +124,26 @@ a {
         margin-bottom: 25px;
         padding: 10px;
         border: solid 1px #d9e4ea;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .col {
+        float: left;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .primary {
+        width: 40%;
+    }
+
+    .secondary {
+        width: 60%;
     }
 }
 
