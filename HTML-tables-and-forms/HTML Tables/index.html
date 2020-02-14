@@ -3,11 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Tables</title>
+    <title>Employee Information</title>
     <link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+
+    <table>
+        <caption>Employee Information</caption>
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">E-mail</th>
+                <th scope="col">Job role</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="3">Data is updated every 15 minutes.</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <th scope="row">Lucie Jakesova</th>
+                <td>lucie@example.com</td>
+                <td>Front-End Developer</td>
+            </tr>
+            <tr>
+                <th scope="row">Jack Downey</th>
+                <td>jack@example.com</td>
+                <td>Web Designer</td>
+            </tr>
+            <tr>
+                <th scope="row">Emma Thomas</th>
+                <td>emma@example.com</td>
+                <td>Front-End Developer</td>
+            </tr>
+            <tr>
+                <th scope="row">Thomas Newport</th>
+                <td>thomas@example.com</td>
+                <td>Back-End Developer</td>
+            </tr>
+        </tbody>
+    </table>
     
+
+
+
+
 </body>
 </html>
