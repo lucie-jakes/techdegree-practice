@@ -6,6 +6,14 @@ li:first-child {
 }
 
 li:last-child {
-    background-color: #52bab3;
-    color: white;
+    border: none;
+}
+
+span:only-child {
+    color: #52bab3;
+    font-size: 1.5em;
+}
+
+li:empty {
+    background: tomato;
 }
