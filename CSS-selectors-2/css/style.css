@@ -1,2 +1,11 @@
 /* Structural Pseudo-classes------------------ */
 
+li:first-child {
+    background-color: #52bab3;
+    color: white;
+}
+
+li:last-child {
+    background-color: #52bab3;
+    color: white;
+}
