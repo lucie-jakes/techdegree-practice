@@ -1,4 +1,17 @@
 /* ================================= 
+  Base Styles
+==================================== */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.row {
+  flex: 1;
+}
+
+/* ================================= 
   Media Queries
 ==================================== */
 
@@ -19,6 +32,7 @@
   .col {
     flex: 1 50%;
     flex-direction: column;
+    flex-wrap: wrap;
   }
 
   .row {
