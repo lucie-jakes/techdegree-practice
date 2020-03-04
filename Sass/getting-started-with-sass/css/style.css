@@ -1,3 +1,7 @@
+.test {
+  width: 33.3333333333%;
+}
+
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -611,7 +615,7 @@ footer::after {
   transition: 0.3s;
 }
 .main-nav a:hover {
-  color: #eeea72;
+  color: rgba(238, 234, 114, 0.7);
 }
 
 .btn-info, .btn-callout {
@@ -644,7 +648,7 @@ footer::after {
 
 .material-icons {
   font-size: 2.35em;
-  color: #278da4;
+  color: #31b0cd;
 }
 
 .img-featured {
